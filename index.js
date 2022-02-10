@@ -49,7 +49,7 @@ if (number.textContent > 0){
 }
 
 else{
-    error.textContent = "Error, please input a value larger than 0"
+    error.textContent = "Error, please input a value thats larger than 0"
 
 }
 }
