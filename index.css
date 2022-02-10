@@ -71,6 +71,7 @@ main h3{
 body{
     margin-top: 10vh;
 }
+}
 
 @media (prefers-color-scheme: dark) {
 
@@ -85,4 +86,3 @@ main p{
 
 }
 
-}
