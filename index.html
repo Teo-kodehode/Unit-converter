@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    
+    <content>
+    <header>
+        <h1>Unit Converter</h1>
+        <h2>Convert between metric and imperial units</h2>
+        <p id="number" contenteditable="">0</p>
+        <p id="error"></p>
+    </header>
+
+    <main>
+        <h3 id="toph">Length (Meters/Feet)</h3>
+        <p id="length">0 Meters = 0 Feet | 0 Feet = 0 Meters</p>
+
+        <h3>Volume (Liters/Gallons)</h3>
+        <p id="volume"> 0 Liters = 0 Gallons | 0 Gallons = 0 Liters</p>
+
+        <h3>Mass (Kilos/Pounds)</h3>
+        <p id="mass"> 0 Kilos = 0 Pounds | 0 Pounds = 0 Kilos</p>
+
+        <button id="calculate" onclick="calculate()">Calculate</button>
+    </main>
+
+    </content>
+
+
+    <script src="index.js"></script>  
+</body>
+</html>
