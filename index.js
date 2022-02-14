@@ -20,7 +20,7 @@ if (number.textContent > 0){
     let meterscon = value*0.304
 
 //Displays the calculation of length
-    length.textContent = value + " Meters = " + feetcon.toFixed(3) + " Feet | " + value + " Feet = " + meterscon.toFixed(3) + " Meters"
+    length.textContent = value + " Meters = " + feetcon.toPrecision(4) + " Feet | " + value + " Feet = " + meterscon.toPrecision(4) + " Meters"
 
 
 
@@ -31,7 +31,7 @@ if (number.textContent > 0){
     let literscon = value*3.785
 
 //Displays the calculation of volume
-    volume.textContent = value + " Liters = " + gallonscon.toFixed(3) + " Gallons | " + value + " Gallons = " + literscon.toFixed(3) + " Liters"
+    volume.textContent = value + " Liters = " + gallonscon.toPrecision(4) + " Gallons | " + value + " Gallons = " + literscon.toPrecision(4) + " Liters"
     
 
 
@@ -42,7 +42,7 @@ if (number.textContent > 0){
     let kilocon = value*0.453
 
 //Displays the calculation of mass
-    mass.textContent = value + " Kilos = " + poundscon.toFixed(3) + " Pounds | " + value + " Pounds = " + kilocon.toFixed(3) + " Kilos"
+    mass.textContent = value + " Kilos = " + poundscon.toPrecision(4) + " Pounds | " + value + " Pounds = " + kilocon.toPrecision(4) + " Kilos"
 
 //Clears error message if its there
     error.textContent = ""
