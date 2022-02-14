@@ -14,10 +14,10 @@ if (number.textContent > 0){
 //Sets value to text content of number
     let value = number.textContent
 //calculates feet conversion
-    let feetcon = value*3.280
+    let feetcon = value*3.2808399
 
 //Calculates meter conversion
-    let meterscon = value*0.304
+    let meterscon = value*0.3048
 
 //Displays the calculation of length
     length.textContent = value + " Meters = " + parseFloat(feetcon.toFixed(3)) + " Feet | " + value + " Feet = " + parseFloat(meterscon.toFixed(3)) + " Meters"
@@ -25,10 +25,10 @@ if (number.textContent > 0){
 
 
 //Calculates gallons conversion
-    let gallonscon = value*0.264
+    let gallonscon = value*0.264172052
 
 //Calculates liters conversiron
-    let literscon = value*3.785
+    let literscon = value*3.78541178
 
 //Displays the calculation of volume
     volume.textContent = value + " Liters = " + parseFloat(gallonscon.toFixed(3)) + " Gallons | " + value + " Gallons = " + parseFloat(literscon.toFixed(3)) + " Liters"
@@ -36,10 +36,10 @@ if (number.textContent > 0){
 
 
 //Calculates pound conversion
-    let poundscon = value*2.204
+    let poundscon = value*2.20462262
 
 //calculates kg conversion
-    let kilocon = value*0.453
+    let kilocon = value*0.45359237
 
 //Displays the calculation of mass
     mass.textContent = value + " Kilos = " + parseFloat(poundscon.toFixed(3)) + " Pounds | " + value + " Pounds = " + parseFloat(kilocon.toFixed(3)) + " Kilos"
